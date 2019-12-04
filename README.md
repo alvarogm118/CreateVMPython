@@ -5,7 +5,7 @@ Python script for creating virtual machines on Ubuntu using virsh
 - Also, it is necessary to install virsh: sudo apt-get install libvirt-bin (if there is any problem check libvirt website)
 
 - This script is simple, it creates a setting of a network composed of the host and the VMs (c1, lb and 1-5 servers).
-- All the files needed will be created in the folder /mnt/tmp/.
+- All the files needed will be created in the folder /mnt/tmp/pf1
 
 - Commands: 
   - Create: python3 pf1.py crear <optional> (This optional is the number of servers you want to create (1-5), if its empty the default value is 2)
