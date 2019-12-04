@@ -2,7 +2,7 @@
 Python script for creating virtual machines on Ubuntu using virsh
 
 - First of all, this script runs on Ubuntu using python3 and it needs two files in the same folder: plantilla-vm-pf1.xml (in this repository) and cdps-vm-base-pf1.qcow2 (you can download it from here: https://mega.nz/#!UgtgiIxB!8zmmvFWnKMSAwlK6Ym6-GzhdHdSjFuEKUXsruVfDQc8 )
-- Also, it is necessary to install virsh: sudo apt-get install libvirt-bin 
+- Also, it is necessary to install virsh: sudo apt-get install libvirt-bin (if there is any problem check libvirt website)
 
 - This script is simple, it creates a setting of a network composed of the host and the VMs (c1, lb and 1-5 servers).
 - All the files needed will be created in the folder /mnt/tmp/.
