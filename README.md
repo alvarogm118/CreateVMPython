@@ -12,4 +12,4 @@ Python script for creating virtual machines on Ubuntu using virsh
   - Start: python3 pf1.py arrancar <optional> (This optional is the number of the server you want to start, if its empty, all of them will initialiate)
   - Pause: python3 pf1.py parar <optional> (This optional is the number of the server you want to pause, if its empty, all of them will stop)
   - Monitor (check the status of the VMs): python pf1.py monitor
-  - Destroy (It destroy all the VMs and delete all the generated file): python3 pf1.py destroy
+  - Destroy (It destroy all the VMs and delete all the generated files): python3 pf1.py destroy
